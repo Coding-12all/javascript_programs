@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> check the leap year or not</title>
+    </head>
+    <body>
+        <script>
+            let year=prompt("enter a year");
+            if(year%4==0)
+            {
+                if(year%100==0)
+                {
+                    if(year%400==0)
+                    {
+                        console.log("leap year");
+                    }
+                    else{
+                        console.log("not a leap year");
+                    }
+                }
+                else{
+                    console.log("leap year");
+                }
+            }
+            else{
+                console.log("not a leap year");
+            }
+        </script>
+    </body>
+</html>

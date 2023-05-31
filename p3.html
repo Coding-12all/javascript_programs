@@ -1,0 +1,33 @@
+<!-- write a javascript program on factorial of a given number -->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> factorial of a number</title>
+</head>
+<body>
+    <script>
+        //take the input from user
+        let number=prompt("enter a number");
+        //if a number is negative print the factorial of a number doesnt exist
+          if(number<0)
+          {
+            document.write("the factorial of a number is negative it doesn't exist");
+          }
+          //if a number is equal to zero the factorial of a number is 1
+          else if(number==0)
+          {
+            document.write(`the factorial number is zero ${number} 1`);
+          }
+          //if the factorial number is positive use formula as fact=fact*i
+          else{
+          let fact=1;
+          for (i=1;i<=number;i++)
+          {
+            
+            fact=fact*i;
+            document.write(`the factorial of a ${number} is ${fact}`);
+          }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello world</title>
+    </head>
+    <body>
+            <script>
+//swapping can be done different logics
+                  //swapping of two variables
+                    //taking the values from users
+                    var a=prompt("enter the value of a ");
+                    var b=prompt("enter the value of b");
+                    //temporary variable
+                    var temp;
+                    //swapping process
+                     temp=a;
+                     a=b;
+                     b=temp;
+                     //printing the statements
+                     console.log(`the value of a after swapping ${a}`);
+                     console.log(`the value of b after swapping ${b}`);
+                     document.write(`the value of a after swapping ${a}`+"<br>");
+                     document.write(`the value of b after swapping ${b}`);
+                    //swapping two variables without using third variable
+                    //take input from users
+                    var a=parseInt(prompt("enter a number"));
+                    var b=parseInt(prompt("enter a number"));
+                    a=a+b;
+                    b=a-b;
+                    a=a-b;
+                    console.log(`the value of a after swapping is ${a}`);
+                    console.log(`the value of b after swapping ${b}`);
+                    document.write(`the value of a after swapping ${a}`+"<br>");
+                    document.write(`the value of b after swapping ${b}`);
+                    //swapping of two variables without using third variable
+                    var a=parseInt(prompt("enter a number"));
+                    var b=parseInt(prompt("enter a number"));
+                    [a,b]=[b,a];
+                    console.log(`the value of a after swapping is ${a}`);
+                    console.log(`the value of b after swapping ${b}`);
+                    document.write(`the value of a after swapping ${a}`+"<br>");
+                    document.write(`the value of b after swapping ${b}`);
+</script>
+</body>
+</html>
